@@ -13,7 +13,7 @@ Now that we have included the Angular script, our next step is to set up the bon
 ```javascript
 angular.module('devMtIn', []);
 ```
-Be sure to include your `app.js` file in your `index.html` **underneath** the Angular script. If included above the Angular script, the app will not function. Our last step in including Angular in our new app is to add the `ng-app` attribute to our HTML. This attribute should be added to our `<html>` tag and should reference the name of our app. `<html ng-app="devMtIn">`.
+Be sure to include your `app.js` file in your `index.html` **underneath** the Angular script. If included above the Angular script, the app will not function. Our last step in including Angular in our  new app is to add the `ng-app` attribute to our HTML. This attribute should be added to our `<html>` tag and should reference the name of our app. `<html ng-app="devMtIn">`.
 
 Now we are ready to launch our app using `http-server` or `live-server`. You should see the page laid out with the included HTML and CSS. Check the console to make sure there are no errors.
 
